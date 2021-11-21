@@ -85,7 +85,7 @@ public class Main {
 
     }
 
-    public static void chooseSection() { // DRY
+    public static void chooseSection() {
         while (true) {
             System.out.println("""
                     Выберите отдел:

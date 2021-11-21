@@ -6,8 +6,8 @@ import Product.Device;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ShopInMoscow implements Shop{ // soLid - Liskov - объект Shop является случаем магазина, но не его отдела,
-    FruitSection fruitSection;              //поэтому от интерфейса ShopSection не наследуется
+public class ShopInMoscow implements Shop{
+    FruitSection fruitSection;
     DigitalSection digitalSection;
     List<Product> cart = new ArrayList<>();
     private static boolean isDigital;

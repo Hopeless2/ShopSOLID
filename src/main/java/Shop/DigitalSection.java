@@ -6,7 +6,7 @@ import Product.Device;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DigitalSection implements ShopSection { // Solid - Single - объект класса DigitalSection хранит ассортимент товаров интерфейса Digital
+public class DigitalSection implements ShopSection {
     private List<Product> devices;
 
     protected DigitalSection(){
@@ -34,7 +34,7 @@ public class DigitalSection implements ShopSection { // Solid - Single - объ�
 
     public int getAssortmentSize(){
         return devices.size();
-    } // метод помогает избегать магических чисел
+    }
 
     public Product buyWarranty(int number, int quantity){
         return new Device(

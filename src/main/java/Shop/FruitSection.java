@@ -6,7 +6,7 @@ import Product.Fruit;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FruitSection implements ShopSection { // Solid - Single - объект класса FruitSection хранит ассортимент товаров интерфейса Fruit
+public class FruitSection implements ShopSection {
     private List<Product> fruits;
 
     protected FruitSection(){
